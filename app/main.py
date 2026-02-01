@@ -4,7 +4,6 @@ class Person:
     def __init__(self, name: str, age: int, **kwargs) -> None:
         self.name = name
         self.age = age
-        Person.people[self.name] = self
 
 
 def create_person_list(people: list) -> list:
